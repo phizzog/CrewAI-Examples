@@ -148,8 +148,7 @@ crew = Crew(
   agents=[researcher, writer, director],
   tasks=[research_task, write_task, director_task],
   process=Process.sequential,  # Sequential task execution
-  verbose=True,
-  full_output=True
+  verbose=True
 )
 
 # Starting the task execution process
